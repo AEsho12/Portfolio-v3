@@ -8,47 +8,9 @@
 <template>
     <!-- Main Container -->
     <div class="main-container">
-        <div ClassName="sidebar">
-            <div ClassName="content-wrapper">
-                <!-- title Container -->
-                <div class="title-container">
-                    <!-- Heading-text Container -->
-                    <div class="heading-container">
-                        <h1>Ayo Esho</h1>
-                    </div>
-                    <!-- subtitle text Container -->
-                    <div class="subtitle-container">
-                        <h2>Developer</h2>
-                    </div>
-                    <!-- info Container -->
-                    <div class="info-container">
-                        <p>Computer Science Student at the University of Liverpool</p>
-                    </div>
-                    <!-- icons Container -->
-                    <div class="icons-container">
-
-                    </div>
-                </div>
-                <!-- About Container -->
-                <div class="about-container">
-                    <div>
-                        <h4 class="about">ABOUT</h4>
-                    </div>
-                    <div>
-                        <p2 class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sint eligendi
-                            consectetur
-                            laborum nihil recusandae quo corrupti, debitis repellendus odio.</p2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Experience Container -->
         <div class="experience-container">
             <div class="experience-colum ">
-                <div class="experience-title">
-                    EXPERIENCE
-                </div>
                 <div class="timeline">
                     <div class="present">
                         JULY - PRESENT
@@ -109,38 +71,36 @@
     border: none;
 }
 
-.sidebar {
-    width: 50%;
-    margin: 20px;
+
+.experience-container{
+    position: relative;
+    left: 630px;
+    top: -30px;
+}
+.present{
+   padding: 20px;
 }
 
-.sidebar .content-wrapper {
-    height: 200px;
-    width: 200px;
-    margin-bottom: 20px;
+.present:hover{
+    background-color: rgba(30,41,59,.5);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+    border-radius: .375rem;
+    --tw-shadow: inset 0 1px 0 0 rgba(148,163,184,.1);
+    --tw-shadow-colored: inset 0 1px 0 0 var(--tw-shadow-color);
+    --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0,0,0,.04)) drop-shadow(0 4px 3px rgba(0,0,0,.1));
 
+
+   
 }
 
-.main-container {
-    margin: 40px;
-}
 
-.title-container {
-    color: rgb(226 232 240/var(--tw-text-opacity));
-    letter-spacing: -.025em;
-    line-height: 2.5rem;
-    font-family: "Helvetica" var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-feature-settings: "ss03", "cv02", "cv11";
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 40px;
-}
 
 h2 {
     font-weight: 700;
     font-size: 20px;
+    position: relative;
+    top: -30px;
 }
 
 p {
@@ -150,39 +110,15 @@ p {
     color: rgb(100 116 139/var(--tw-text-opacity));
     letter-spacing: .025em;
     font-weight: 600;
+    position: relative;
+    top: -30px;
 }
 
-h4 {
-    margin-top: 100px;
-    font-weight: 700;
-    font-size: 12px;
-}
 
-.about {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
 
-    padding-right: 1.5rem;
-
-    margin-bottom: 1rem;
-
-    z-index: 20;
-}
-.experience-title{
-    padding-top: 4.25rem;
-}
-.timeline{
-    column-count: 1;
-    
-}
-.colum{
-    display: inline-flex;
-    margin: 20px;
-    
-
-}
 .content{
     margin-left: 8.5rem; 
-    margin-bottom: 3.5rem;
+    margin-bottom: 4.5rem;
+    
 }
 </style>
