@@ -9,7 +9,7 @@
     <!-- Main Container -->
     <div class="main-container">
         <!-- About Container -->
-        <div class="about-container">
+        <div class="about-container" id="about">
             <div class="about-title">About</div>
             <div>
                 <p class="about">
@@ -31,7 +31,6 @@
 
 .main-container {
     z-index: 100;
-    top: 250px;
     font-family: var(--font-inter),ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --tw-text-opacity: 1;
     color: rgb(148 163 184/var(--tw-text-opacity));
@@ -98,8 +97,9 @@ p {
 @media (min-width: 1025px) {
     .about-container {
         position: relative;
-        bottom: 370px;
+        bottom: 320px;
         left: 600px;
+        width: 550px;
     }
 }
 </style>

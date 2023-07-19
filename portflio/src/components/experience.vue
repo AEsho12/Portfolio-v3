@@ -9,7 +9,7 @@
     <!-- Main Container -->
     <div class="main-container">
         <!-- Experience Container -->
-        <div class="experience-container">
+        <div class="experience-container " id="experience">
             <div class="experience-colum ">
                 <div class="experience-title">
                     experience
@@ -99,13 +99,13 @@
     transition-property: all;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     transition-duration: .15s;
-    padding-bottom: 0.25rem;
+    padding-bottom: .25rem;
     margin-top: 3.2rem;
 }
 @media (min-width: 1025px) {
     .experience-container {
         position: relative;
-        bottom: 370px;
+        bottom: 330px;
         left: 600px;
     }
 }
@@ -127,11 +127,13 @@
     -webkit-font-smoothing: antialiased;
     font-family: var(--font-inter),ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-feature-settings: "ss03","cv02","cv11";
+    display: flex;
     
 }
 .present{
     padding: 5px;
 }
+
 
 .present:hover{
     background-color: rgba(30,41,59,.5);
@@ -192,8 +194,6 @@ p {
 }
 @media (max-width: 1025px) {
     .experience-title {
-        
-        
         line-height: 1.625;
         --tw-bg-opacity: 1;
         text-transform: uppercase;
@@ -204,5 +204,6 @@ p {
         margin-bottom: 1.2rem;
     }
 }
+
 
 </style>
