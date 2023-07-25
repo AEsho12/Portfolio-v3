@@ -1,9 +1,12 @@
 <!-- eslint-disable vue/multi-word-component-names -->
+
 <script setup lang="ts">
+import { Icon } from '@iconify/vue';
+
 
 
 </script>
-    
+
 
 <template>
     <!-- Main Container -->
@@ -26,22 +29,29 @@
 
                     </div>
                     <div class="navbar">
-                        <div class="short1" href="#about">
-                            <div class="border-short1" ></div>
-                            <div class="nav-about">About</div>
+                        <div>Tech Stack</div>
+                        <div class="icons">
+                            <Icon icon="logos:javascript" width="30" height="30" />
+                            <Icon icon="devicon:java-wordmark"  width="30" height="30" />
+                            <Icon icon="devicon:typescript" width="30" height="30" />
+                            <Icon icon="skill-icons:react-dark" width="30" height="30" />
+                            <Icon icon="logos:mysql" width="30" height="30" />
+                            <Icon icon="ph:file-sql" width="30" height="30" />
+                            <Icon icon="devicon:postgresql" width="30" height="30" />
+                            <Icon icon="devicon:python" width="30" height="30" />
+                            <Icon icon="devicon:tailwindcss" width="30" height="30" />
+                            <Icon icon="logos:bootstrap" width="30" height="30" />
+                            <Icon icon="devicon:git" width="30" height="30" />
+                            <Icon icon="devicon:html5" width="30" height="30" />
+                            <Icon icon="skill-icons:vuejs-dark" width="30" height="30" />
+                            <Icon icon="skill-icons:nextjs-dark" width="30" height="30" />
+                            <Icon icon="skill-icons:spring-dark" width="30" height="30" />
                         </div>
-                        <div class="long" href="#experience">
-                            <div class="border-long"></div>
-                            <div class="nav-experience ">Experience</div>
+                        <div class="socials">
+                            <Icon icon="mdi:github" width="30" height="30" class="github" href="https://github.com/AEsho12"/>
+                            <Icon icon="line-md:linkedin" width="30" height="30" class="linkedin" />
                         </div>
-                        <div class="short2">
-                            <div class="border-short2"></div>
-                            <div class="nav-projects">Project</div>
-                        </div>
-                    </div>
-                    <!-- icons Container -->
-                    <div class="icons-container">
-
+                        
                     </div>
 
                 </div>
@@ -70,6 +80,7 @@
     top: 0;
 }
 
+
 .title-container {
     color: rgb(226 232 240/var(--tw-text-opacity));
     letter-spacing: -.025em;
@@ -77,11 +88,38 @@
     font-family: "Helvetica" var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-feature-settings: "ss03", "cv02", "cv11";
     margin-bottom: 1.5rem;
-
-
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 4rem;
+    width: 400px;
 
 }
-
+.socials{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 0rem;
+    margin-bottom: 4rem;
+   
+}
+.github{
+    transition: .6s;
+    cursor: pointer;
+}
+.linkedin{
+    transition: .6s;
+    cursor: pointer;
+}
+.github:hover{
+    transform: translate(0, -10px);
+    color: white;
+}
+.linkedin:hover{
+    transform: translate(0, -10px);
+    color: white;
+}
 h1 {
     font-weight: 700;
     font-size: 50px;
@@ -147,7 +185,7 @@ p {
 }
 
 .navbar {
-    display: none;
+
     text-decoration: none;
     list-style-type: none;
     position: relative;
@@ -214,6 +252,10 @@ p {
         position: sticky;
         margin-left: 40px;
     }
+    .socials{
+        position: relative;
+        bottom: -120px;
+    }
 }
 
 
@@ -222,5 +264,6 @@ p {
     .info-container {
         padding-right: 0;
     }
+    
 }
 </style>

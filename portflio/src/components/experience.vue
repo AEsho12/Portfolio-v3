@@ -24,8 +24,7 @@
                             <div class="risidio">
                                 <div class="content">
                                     <h2>Frontend Developer - Risidio</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum nesciunt
-                                        sit voluptates mollitia. Omnis, accusantium. Ad repellat sequi distinctio?</p>
+                                    <p>Developed high level interactive web3 applications. Produced,  applications for NFT & Crypto marketplaces. Collaborated to sustain for multi users, while being developed in multiple frameworks.</p>
                                     <div class="technologies">
                                         <div class="tech-items">NEXT JS</div>
                                         <div class="tech-items">React</div>
@@ -48,8 +47,15 @@
                             <div class="university">
                                 <div class="content">
                                     <h2>Computer Science W/ Software Development - University of Liverpool</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum nesciunt
-                                        sit voluptates mollitia. Omnis, accusantium. Ad repellat sequi distinctio?</p>
+                                    <p>Built application in multiple languages , while undergoing modules that including the basics of Object oriented Programming, The fundamentals of Software Engineering/Development,  App (IOS & Android ) & Web Developed Applications.  </p>
+                                    <div class="technologies">
+                                        <div class="tech-items">Java</div>
+                                        <div class="tech-items">JavaScript</div>
+                                        <div class="tech-items">PHP</div>
+                                        <div class="tech-items">MySQL</div>
+                                        <div class="tech-items">Swift</div>
+                                        <div class="tech-items">Haskell</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +69,16 @@
                             <div class="risidio">
                                 <div class="content">
                                     <h2>Software Specialism - QA BootCamp</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum nesciunt
-                                        sit voluptates mollitia. Omnis, accusantium. Ad repellat sequi distinctio?</p>
+                                    <p>Obtained skills of multiple programming languages, while recovering the fundemtails of programming. Gained skills in DevOps, Linux development, Azure and Microsoftsoft fundamentals. Developed a final project in Java, sustained to handle multiple users  </p>
+                                    <div class="technologies">
+                                        <div class="tech-items">React JS</div>
+                                        <div class="tech-items">Java</div>
+                                        <div class="tech-items">Python</div>
+                                        <div class="tech-items">MySQL</div>
+                                        <div class="tech-items">SQL</div>
+                                        <div class="tech-items">BootStrap</div>
+                                        <div class="tech-items">Linux</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -77,8 +91,12 @@
                             <div class="risidio">
                                 <div class="content">
                                     <h2>Information Technology - Palmers College</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum nesciunt
-                                        sit voluptates mollitia. Omnis, accusantium. Ad repellat sequi distinctio?</p>
+                                    <p>Covered the foundations of Information Technology, while learning about systems and Linux Development. Built Web applications with DreamWeaver. Landed number 1 spot for a competition for the creation of web application for a client of the College .  </p>
+                                    <div class="technologies">
+                                        <div class="tech-items">DreamWeaver</div>
+                                        <div class="tech-items">Python</div>
+                                        <div class="tech-items">Linux</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +137,7 @@
 @media (min-width: 1025px) {
     .experience-container {
         position: relative;
-        bottom: 330px;
+        bottom: 550px;
         left: 580px;
     }
 
@@ -232,6 +250,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    
 
 }
 
@@ -246,6 +265,7 @@ p {
     position: relative;
     font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-feature-settings: "ss03", "cv02", "cv11";
+    height: 200px;
 
 
 }

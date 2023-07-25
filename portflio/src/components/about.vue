@@ -7,6 +7,7 @@
 
 <template>
     <!-- Main Container -->
+    <section id="section1">
     <div class="main-container">
         <!-- About Container -->
         <div class="about-container" id="about">
@@ -20,6 +21,7 @@
         </div>
 
     </div>
+</section>
 </template>
 
 <style scoped>
@@ -97,7 +99,7 @@ p {
 @media (min-width: 1025px) {
     .about-container {
         position: relative;
-        bottom: 320px;
+        bottom: 540px;
         left: 600px;
         width: 550px;
     }

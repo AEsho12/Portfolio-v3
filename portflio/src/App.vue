@@ -3,11 +3,13 @@ import { RouterView } from 'vue-router'
 import sidebar from './components/sidebar.vue';
 import about from './components/about.vue';
 import  experience from './components/experience.vue';
+import { VueElement } from 'vue';
 
 
 
 
 </script>
+
 
 <template>
   <header>
