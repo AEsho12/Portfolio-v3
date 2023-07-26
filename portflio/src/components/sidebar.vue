@@ -25,11 +25,11 @@ import { Icon } from '@iconify/vue';
                     </div>
                     <!-- info Container -->
                     <div class="info-container">
-                        <p>Computer Science Student at the University of liverpool </p>
+                        <p>Computer Science Student at the<span class="liverpool"> University of Liverpool</span>  </p>
 
                     </div>
                     <div class="navbar">
-                        <div>Tech Stack</div>
+                        <div class="tech-stack">Tech Stack<span class="arrow"> <Icon icon="mdi:arrow-up"  width="15" height="30" :rotate="1" /></span></div>
                         <div class="icons">
                             <Icon icon="logos:javascript" width="30" height="30" />
                             <Icon icon="devicon:java-wordmark"  width="30" height="30" />
@@ -80,7 +80,30 @@ import { Icon } from '@iconify/vue';
     top: 0;
 }
 
+.liverpool:hover{
+    color: white;
+    transition: .6s;
+    cursor: pointer;
 
+}
+.arrow{
+    position: relative;
+    top:10px;
+    left: 8px;
+    cursor: pointer;
+    color: rgb(100 116 139/var(--tw-text-opacity));
+}
+
+.tech-stack:hover {
+    color: white;
+    .arrow:hover{
+    position: relative;
+    left: 18px;
+    transition: .6s;
+    color: white;
+    }
+
+}
 .title-container {
     color: rgb(226 232 240/var(--tw-text-opacity));
     letter-spacing: -.025em;

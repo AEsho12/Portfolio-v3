@@ -14,7 +14,7 @@
             <div class="about-title">About</div>
             <div>
                 <p class="about">
-                Greetings! Allow me to introduce myself. I'm Ayo, a dedicated student at the University of Liverpool, pursuing my degree in Computer Science with a focus on Software Development. Throughout my academic journey, I have delved into a diverse range of modules encompassing various facets of the field, such as Object-Oriented Programming, Software Development, Software Engineering, Data Structures, and Algorithms, among others. </p>
+                A dedicated student at the University of Liverpool, pursuing my degree in Computer Science with a focus on Software Development. Throughout my academic journey, I have delved into a diverse range of modules encompassing various facets of the field, such as Object-Oriented Programming, Software Development, Software Engineering, Data Structures, and Algorithms, among others. </p>
                 <p class="about">Programming has always been the driving force behind my enthusiasm, and it continues to be an unwavering passion of mine. I find immense joy in dedicating countless hours to the creation and design of systems, even during my leisure time.</p>
                 <p class="about">When I'm not engrossed in code, I cherish every opportunity to watch football matches alongside my beloved family and friends. It's a shared experience that brings us all closer together.</p>
             </div>
