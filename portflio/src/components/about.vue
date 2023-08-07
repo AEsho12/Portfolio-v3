@@ -14,9 +14,9 @@
             <div class="about-title">About</div>
             <div>
                 <p class="about">
-                A dedicated student at the University of Liverpool, pursuing my degree in Computer Science with a focus on Software Development. Throughout my academic journey, I have delved into a diverse range of modules encompassing various facets of the field, such as Object-Oriented Programming, Software Development, Software Engineering, Data Structures, and Algorithms, among others. </p>
-                <p class="about">Programming has always been the driving force behind my enthusiasm, and it continues to be an unwavering passion of mine. I find immense joy in dedicating countless hours to the creation and design of systems, even during my leisure time.</p>
-                <p class="about">When I'm not engrossed in code, I cherish every opportunity to watch football matches alongside my beloved family and friends. It's a shared experience that brings us all closer together.</p>
+                    I'm a dedicated student at the University of Liverpool, pursuing my degree in Computer Science with a focus on Software Development. Throughout my academic journey, I've had the pleasure of exploring a diverse range of modules that cover various exciting aspects of the field, including Object-Oriented Programming, Software Engineering, Data Structures, and Algorithms, among others. </p>
+                <p class="about">Programming has always been my driving force and remains a true passion of mine. I find immense joy in dedicating countless hours to the creation and design of systems, even during my leisure time.</p>
+                <p class="about">When I'm not engrossed in code, I absolutely cherish every opportunity to watch football matches alongside my beloved family and friends. It's a shared experience that brings us all closer together and fills my heart with happiness.</p>
             </div>
         </div>
 
@@ -99,7 +99,7 @@ p {
 @media (min-width: 1025px) {
     .about-container {
         position: relative;
-        bottom: 540px;
+        bottom: 570px;
         left: 600px;
         width: 550px;
     }
