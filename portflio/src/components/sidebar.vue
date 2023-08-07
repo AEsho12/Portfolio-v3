@@ -25,14 +25,16 @@ import { Icon } from '@iconify/vue';
                     </div>
                     <!-- info Container -->
                     <div class="info-container">
-                        <p>Computer Science Student at the<span class="liverpool"> University of Liverpool</span>  </p>
+                        <p>Computer Science Student at the<span class="liverpool"> University of Liverpool</span> </p>
 
                     </div>
                     <div class="navbar">
-                        <div class="tech-stack">Tech Stack<span class="arrow"> <Icon icon="mdi:arrow-up"  width="15" height="30" :rotate="1" /></span></div>
+                        <div class="tech-stack">Tech Stack<span class="arrow">
+                                <Icon icon="mdi:arrow-up" width="15" height="30" :rotate="1" />
+                            </span></div>
                         <div class="icons">
                             <Icon icon="logos:javascript" width="30" height="30" />
-                            <Icon icon="devicon:java-wordmark"  width="30" height="30" />
+                            <Icon icon="devicon:java-wordmark" width="30" height="30" />
                             <Icon icon="devicon:typescript" width="30" height="30" />
                             <Icon icon="skill-icons:react-dark" width="30" height="30" />
                             <Icon icon="logos:mysql" width="30" height="30" />
@@ -48,10 +50,14 @@ import { Icon } from '@iconify/vue';
                             <Icon icon="skill-icons:spring-dark" width="30" height="30" />
                         </div>
                         <div class="socials">
-                            <Icon icon="mdi:github" width="30" height="30" class="github" href="https://github.com/AEsho12"/>
-                            <Icon icon="line-md:linkedin" width="30" height="30" class="linkedin" />
+                            <a href="https://github.com/AEsho12"  target="_blank" >
+                                <Icon icon="mdi:github" width="30" height="30" class="github" />
+                            </a>
+                            <a  href="https://www.linkedin.com/in/ayo-esho-5279a31bb/"  target="_blank" >
+                                <Icon icon="line-md:linkedin" width="30" height="30" class="linkedin" />
+                            </a>
                         </div>
-                        
+
                     </div>
 
                 </div>
@@ -79,16 +85,26 @@ import { Icon } from '@iconify/vue';
     padding: 0 24px;
     top: 0;
 }
+a{
+    background-color: #0f182d;
+    color: rgb(148 163 184/var(--tw-text-opacity));
+    text-decoration: none;
+}
+a:hover{
+    background-color: #0f182d;
+    text-decoration: none;
+}
 
-.liverpool:hover{
+.liverpool:hover {
     color: white;
     transition: .6s;
     cursor: pointer;
 
 }
-.arrow{
+
+.arrow {
     position: relative;
-    top:10px;
+    top: 10px;
     left: 8px;
     cursor: pointer;
     color: rgb(100 116 139/var(--tw-text-opacity));
@@ -96,14 +112,16 @@ import { Icon } from '@iconify/vue';
 
 .tech-stack:hover {
     color: white;
-    .arrow:hover{
-    position: relative;
-    left: 18px;
-    transition: .6s;
-    color: white;
+
+    .arrow:hover {
+        position: relative;
+        left: 18px;
+        transition: .6s;
+        color: white;
     }
 
 }
+
 .title-container {
     color: rgb(226 232 240/var(--tw-text-opacity));
     letter-spacing: -.025em;
@@ -112,37 +130,44 @@ import { Icon } from '@iconify/vue';
     font-feature-settings: "ss03", "cv02", "cv11";
     margin-bottom: 1.5rem;
 }
-.icons{
+
+.icons {
     display: flex;
     gap: 10px;
     margin-bottom: 4rem;
     width: 400px;
 
 }
-.socials{
+
+.socials {
     display: flex;
     gap: 10px;
     position: relative;
     bottom: 0rem;
     margin-bottom: 4rem;
-   
+
 }
-.github{
+
+.github {
     transition: .6s;
     cursor: pointer;
 }
-.linkedin{
+
+.linkedin {
     transition: .6s;
     cursor: pointer;
 }
-.github:hover{
+
+.github:hover {
     transform: translate(0, -10px);
     color: white;
 }
-.linkedin:hover{
+
+.linkedin:hover {
     transform: translate(0, -10px);
     color: white;
 }
+
 h1 {
     font-weight: 700;
     font-size: 50px;
@@ -152,11 +177,13 @@ h1 {
     display: flex;
     width: 100px;
 }
+
 .short2 {
     display: flex;
     width: 100px;
 }
-.long{
+
+.long {
     display: flex;
 }
 
@@ -179,6 +206,7 @@ h1 {
     top: 10px;
     margin-right: 20px;
 }
+
 .border-short2 {
     width: 50px;
     background-color: white;
@@ -187,11 +215,14 @@ h1 {
     top: 10px;
     margin-right: 20px;
 
-}.short1:hover{
-    width:  10.6rem;
+}
+
+.short1:hover {
+    width: 10.6rem;
     transition: ease-in-out;
 }
-.short2:hover{
+
+.short2:hover {
     width: 10.6rem;
     transition: ease-in-out;
 }
@@ -275,7 +306,8 @@ p {
         position: sticky;
         margin-left: 40px;
     }
-    .socials{
+
+    .socials {
         position: relative;
         bottom: -120px;
     }
@@ -287,6 +319,5 @@ p {
     .info-container {
         padding-right: 0;
     }
-    
-}
-</style>
+
+}</style>

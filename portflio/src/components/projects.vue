@@ -14,12 +14,25 @@
                 <div class="experience-title">
                     projects
                 </div>
+                
                 <div class="timeline">
                     <div class="present">
                         <div class="date">
                             Frontend
-                            <div class="tech-items">Live View</div>
-                            <div class="tech-items">Code</div>
+
+                            <div class="code-view">
+                                <a href="https://aesho12.github.io/Rocket-shooter/"  target="_blank"  class="code-view">Live View</a>
+                            </div>
+                            <div class="code-view2">
+                                <a href="https://github.com/AEsho12/Rocket-shooter.git" target="_blank"  class="code-view2">Code</a>
+                            </div>
+                            
+                            <p></p>Tech-Stack
+                            <div class="technologies2">
+                                <div class="tech-items">JavaScript</div>
+                                <div class="tech-items">HTML</div>
+                                <div class="tech-items">CSS</div>
+                            </div>
                         </div>
 
                         <div class="colum">
@@ -33,18 +46,25 @@
                                         the
                                         grid and do not move. The user has to navigate throughout the grid and eliminate its
                                         enemy using key functions</p>
-                                    <div class="technologies">
-                                        <div class="tech-items">JavaScript</div>
-                                        <div class="tech-items">HTML</div>
-                                        <div class="tech-items">CSS</div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="present">
-                        <div class="date">
-                            Full Stack
+                          <div class="date">
+                            Frontend
+
+                           
+                            <div class="code-view2">
+                                <a href="https://github.com/AEsho12/booking-system"  target="_blank"  class="code-view2">Code</a>
+                            </div>
+                            
+                            <p></p>Tech-Stack
+                            <div class="technologies2">
+                                <div class="tech-items">PHP</div>
+                                <div class="tech-items">Javascript</div>
+                                <div class="tech-items">MySQL</div>
+                            </div>
                         </div>
                         <div class="colum">
                             <div class="university">
@@ -58,18 +78,25 @@
                                         The system is designed to only accommodate a
                                         certain number of participants, as classes have a max limit of people that are
                                         allowed to attend. </p>
-                                    <div class="technologies">
-                                        <div class="tech-items">PHP</div>
-                                        <div class="tech-items">JavaScript</div>
-                                        <div class="tech-items">MySQL</div>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="present">
                         <div class="date">
-                            Full Stack
+                            Frontend
+                            <div class="code-view2">
+                                <a href="https://github.com/AEsho12/Student-Managment-System"  target="_blank"  class="code-view2">Code</a>
+                            </div>
+                            
+                            <p></p>Tech-Stack
+                            <div class="technologies2">
+                                <div class="tech-items">Jav</div>
+                                <div class="tech-items">Spring</div>
+                                <div class="tech-items">React JS</div>
+                                <div class="tech-items">MySQL</div>
+                            </div>
                         </div>
                         <div class="colum">
                             <div class="risidio">
@@ -81,19 +108,24 @@
                                         request that takes the data from the backend and displays the users into a table
                                         based view.
                                     </p>
-                                    <div class="technologies">
-                                        <div class="tech-items">Java</div>
-                                        <div class="tech-items">Spring</div>
-                                        <div class="tech-items">React JS</div>
-                                        <div class="tech-items">MySQL</div>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="present">
                         <div class="date">
-                            Full Stack
+                            Frontend
+                            <div class="code-view2">
+                                <a href="https://github.com/AEsho12/DrinkMachineCourseWork.git"  target="_blank"  class="code-view2">Code</a>
+                            </div>
+                            
+                            <p></p>Tech-Stack
+                            <div class="technologies2">
+                                <div class="tech-items">DreamWeaver</div>
+                                <div class="tech-items">Python</div>
+                                <div class="tech-items">Linux</div>
+                            </div>
                         </div>
                         <div class="colum">
                             <div class="risidio">
@@ -102,14 +134,11 @@
                                     <p>Covered the foundations of Information Technology, while learning about systems and
                                         Linux Development. Built Web applications with DreamWeaver. Landed number 1 spot for
                                         a competition for the creation of web application for a client of the College . </p>
-                                    <div class="technologies">
-                                        <div class="tech-items">DreamWeaver</div>
-                                        <div class="tech-items">Python</div>
-                                        <div class="tech-items">Linux</div>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -126,7 +155,38 @@
     border: none;
 }
 
+.code-view {
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    
 
+
+    border-radius: 35px;
+    --tw-text-opacity: 1;
+    color: rgb(255 81 94/var(--tw-text-opacity));
+
+    align-items: center;
+    background-color: none;
+
+}
+.code-view:hover{
+    background-color: #162134;
+}
+
+.code-view2 {
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+
+
+    border-radius: 35px;
+    --tw-text-opacity: 1;
+    color: white;
+
+    align-items: center;
+    background-color: none;
+}
 
 .experience-container {
     display: flex;
@@ -142,6 +202,15 @@
     transition-duration: .15s;
     padding-bottom: .25rem;
     margin-top: 3.2rem;
+}
+
+.resume {
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    bottom: 70px;
+
 }
 
 @media (min-width: 1025px) {
